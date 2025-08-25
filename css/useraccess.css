@@ -1,0 +1,127 @@
+﻿
+body
+{
+    background-color: #f1f8f2;
+}
+
+
+.main-container
+{
+    max-width: 500px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 
+{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.auth-container 
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.tab-toggle 
+{
+    display: flex;
+    background-color: #e3f2e1;
+    border-radius: 999px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.tab-toggle button
+{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    border-radius: 999px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    color: #05386B;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-toggle button.active
+{
+    background-color: white;
+    color: #05386B;
+}
+
+.user-access 
+{
+    text-align: left;
+}
+
+.user-access h2 
+{
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+.user-access p 
+{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label 
+{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+input
+{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f8f2;
+    margin-bottom: 10px;
+}
+
+.forgot-link
+{
+    display: block;
+    text-align: right;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    color: #116530;
+    text-decoration: none;
+}
+
+.sign-up-button,
+.sign-in-button 
+{
+    width: 100%;
+    background-color: #116530;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-up-button:hover,
+.sign-in-button:hover 
+{
+    background-color: #0b4723;
+}
+
+.privacy-card 
+{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
